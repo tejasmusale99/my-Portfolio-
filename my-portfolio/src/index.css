@@ -1,6 +1,9 @@
 .container {
   padding-top: 50px;
 }
+body{
+  
+}
 .row {
   height: 90vh;
 }
@@ -106,17 +109,41 @@ a:hover {
 
 .sidebar_github:hover,
 .sidebar_resume:hover {
-  background-color: red;
+  background-color: rgba(106, 101, 101, 0.925);
   color: black;
 }
 
 /* main  */
+
 .app_main-content {
   background-color: rgb(221, 222, 222);
   border-radius: 20px;
   padding: 25px 15px;
 }
 
+.navbar_items{
+  display: flex;
+}
+.navbar_active{
+  font-size: 2rem;
+  font-weight: 700;
+  color:#354358;
+  border-bottom: 4px  solid Red;
+}
+
+.navbar_item{
+  margin-right: 20px;
+  text-decoration: none;
+  color: #354358;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.navbar_item:hover{
+  background-color: rgb(13, 117, 208);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* media queries  */
 
 @media (max-width: 991px) {
