@@ -1,17 +1,126 @@
-.container{
+.container {
   padding-top: 50px;
 }
-.row{
+.row {
   height: 90vh;
 }
-.app_sidebar{
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+/* sidebar */
+
+.sidebar {
   background-color: rgb(221, 222, 222);
   height: 100%;
   border-radius: 20px;
   padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
 }
-.app_main-content{
+
+.sidebar_avatar {
+  height: 130px;
+  width: 17 0px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.sidebar_icon {
+  width: 25px;
+  height: 25px;
+}
+.sidebar_myName {
+  margin: 20px 0px;
+  font-size: 1.5rem;
+}
+.sidebar_name {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px 0px;
+  font-size: 1rem;
+}
+
+.sidebar_name > span {
+  color: rgb(0, 51, 0);
+}
+.sidebar_item {
+  margin-bottom: 6px;
+  padding-top: 6px;
+  height: 40px;
+  font-size: 1.05rem;
+  border-radius: 30px;
+}
+
+.sidebar_title {
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  margin: 25px;
+  padding: 8px;
+}
+
+
+.sidebar_email {
+  background-color: rgb(200, 213, 213);
+  border-radius: 5px;
+  color: #f1f1f1;
+  margin: 15px 25px 0px;
+  /* margin: 8px 128px 0px; */
+  cursor: pointer;
+  transition: all 3s linear;
+}
+
+.display_Email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 0px;
+}
+.sidebar_box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+} 
+.horizontal-line {
+  height: 2px;
+  background-color: grey;
+  margin: 10px 0;
+}
+.sidebar_label{
+  font-weight: 500;
+}
+.sidebar_mainlabel{
+  color: darkgrey;
+}
+
+.sidebar_emailicon:hover {
+  transform: scale(1.2);
+}
+.sidebar_email:hover {
+  transform: scale(1.1);
+}
+
+.sidebar_github:hover,
+.sidebar_resume:hover {
+  background-color: red;
+  color: black;
+}
+
+/* main  */
+.app_main-content {
   background-color: rgb(221, 222, 222);
   border-radius: 20px;
   padding: 25px 15px;
+}
+
+/* media queries  */
+
+@media (max-width: 991px) {
+  .app_main-content {
+    margin: 30px 0;
+  }
 }
