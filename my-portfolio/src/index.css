@@ -1,10 +1,8 @@
-.container {
+.app_container {
   padding-top: 50px;
 }
-body{
-  
-}
-.row {
+
+.app_row {
   height: 90vh;
 }
 a {
@@ -144,6 +142,60 @@ a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* skillcard  */
+
+.about_info{
+  padding-left: 20px;
+}
+.about_para_lines{
+  padding-top: 7px;
+}
+.about_para_first_line{
+  padding-top: 20px;
+}
+.skill-card{
+  background-color: #f1f1f1;
+  margin: 22px;
+  padding: 35px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+.skill_card_icon{
+  width: 40px;
+  height:40px;
+}
+.skill-card-body{
+margin-left: 15px;
+}
+.skill_card_content{
+  margin: 0px;
+  font-size: 0.9rem;
+  color:#354358;
+}
+
+/* Resume  */
+
+.timeline {
+  margin-bottom: 20px;
+}
+
+.timeline h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.timeline p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.timeline p:last-child {
+  margin-bottom: 0;
+}
+
+
 /* media queries  */
 
 @media (max-width: 991px) {
