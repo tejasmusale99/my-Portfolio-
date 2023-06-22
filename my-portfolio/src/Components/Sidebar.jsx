@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import github from "../Icons/github.png";
 import twitter from "../Icons/twitter.png";
 import linkedin from "../Icons/linkedin.png";
@@ -22,15 +23,15 @@ function Sidebar() {
         <span>Frontend Engineer</span>
       </div>
       <div className="sidebar_social-icons my-2">
-        <a href="">
+        <Link to="https://github.com/tejasmusale99" target="_blank">
           <img src={github} alt="github" className="sidebar_icon" />
-        </a>
-        <a href="">
+        </Link>
+        <Link  to="https://twitter.com/tejasmusale99" target="_blank">
           <img src={twitter} alt="twitter" className="sidebar_icon m-3" />
-        </a>
-        <a href="">
+        </Link>
+        <Link to="https://www.linkedin.com/in/tejas-musale-2a86b2171/" target="_blank">
           <img src={linkedin} alt="linkedin" className="sidebar_icon" />
-        </a>
+        </Link>
       </div>
       <a href={resume} download="Resume.pdf">
         <div className="sidebar_item sidebar_resume">
