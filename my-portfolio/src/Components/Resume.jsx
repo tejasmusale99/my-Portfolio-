@@ -7,45 +7,62 @@ import logoredux from "../Icons/redux.png";
 import git from "../Icons/git.png";
 import bootstrap from "../Icons/boot.png";
 import SkillIcon from "./SkillIcon";
-
+import { motion } from "framer-motion";
 
 const skillIcons = [
   {
     item: HTML,
-    text:"HTML"
+    text: "HTML",
   },
   {
     item: CSS,
-    text:"HTML"
+    text: "HTML",
   },
   {
     item: JS,
-    text:"HTML"
+    text: "HTML",
   },
   {
     item: logoreact,
-    text:"HTML"
+    text: "HTML",
   },
   {
     item: logoredux,
-    text:"HTML"
+    text: "HTML",
   },
   {
     item: git,
-    text:"HTML"
+    text: "HTML",
   },
   {
     item: bootstrap,
-    text:"HTML"
-  }
+    text: "HTML",
+  },
 ];
 
 function Resume() {
+  const resume_variant = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.1,
+        duration: 0.6,
+      },
+    },
+  };
+
   return (
     <>
-    <h3 className="education_heading" >Education</h3>
-      <div class="timeline">
-        
+      <h3 className="education_heading">Education</h3>
+      <motion.div
+        class="timeline"
+        variants={resume_variant}
+        initial="hidden"
+        animate="visible"
+      >
         <div class="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">BACHELOR OF ENGINEERING</h6>
@@ -70,14 +87,20 @@ function Resume() {
             <p className="resume-card_details">(Dhule,Maharashtra)</p>
           </div>
         </div>
-      </div>
+      </motion.div>
+
       <h3 className="skills-heading ">Skills</h3>
-      <div className="icon_container skills-list  content-card flex-row">
+
+      <motion.div
+        className="icon_container skills-list  content-card flex-row"
+        variants={resume_variant}
+        initial="hidden"
+        animate="visible"
+      >
         {skillIcons.map((itemIcons) => {
-          return <SkillIcon icons={itemIcons.item} texts={itemIcons.text}/>
+          return <SkillIcon icons={itemIcons.item} texts={itemIcons.text} />;
         })}
-        </div>
-  
+      </motion.div>
     </>
   );
 }

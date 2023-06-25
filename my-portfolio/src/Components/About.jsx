@@ -1,6 +1,8 @@
 import React from "react";
 import api from "../Icons/graphic-design.png";
 import SkillCard from "./SkillCard";
+import { motion } from "framer-motion";
+
 function About() {
   const skills = [
     {
@@ -17,9 +19,28 @@ function About() {
     },
   ];
 
-  return (
+  const about_variant = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+  
+      opacity: 1,
+      transition:{
+        delay:0.1,duration:0.6,
+      }
+    },
+  }
+
+  return (  
     <>
-    <div className="about_info">
+    <motion.div className="about_info"
+      variants={about_variant}
+      initial="hidden"
+      animate="visible"
+    >
+
+
       <p className="about_para_first_line">
         I'm frontend Engineer from India, I build apps with a focus on ReactJS.
       </p>
@@ -43,8 +64,12 @@ function About() {
         Currently I am exploring : Node.js (Express.js), Firebase and MongoDB in
         my free time.
       </p>
-      </div>
-      <div className="row">
+      </motion.div>
+      <motion.div className="row"
+       variants={about_variant}
+       initial="hidden"
+       animate="visible"
+      >
         {skills.map((item, index) => {
           return (
             <SkillCard
@@ -55,7 +80,7 @@ function About() {
             />
           );
         })}
-      </div>
+      </motion.div>
      
       </>
   );
