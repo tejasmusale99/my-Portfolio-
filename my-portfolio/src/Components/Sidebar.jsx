@@ -1,10 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import location from "../Icons/location.png";
-import envelope from "../Icons/envelope.png";
 import Avatar from "../Icons/avatar.jpg";
 import resume from "../Icons/Resume.pdf";
-import resumeicon from "../Icons/resume.png";
 import { motion } from "framer-motion";
 
 function Sidebar() {
@@ -58,25 +55,22 @@ function Sidebar() {
         <div className="main-Email-container">
           <div className="display_Email">
             <div className=" sidebar_email" onClick={handleEmailMe}>
-              <img
-                src={envelope}
-                alt="envelop"
-                className="  sidebar_icon sidebar_emailicon"
-              />
+
+              <i class="fa-regular fa-envelope sidebar_emailicon"></i>
             </div>
             <div className="sidebar_box">
               <div className="sidebar_mainlabel">Email</div>
-              <span className=" sidebar_label">tejasmusale99@gmail.com</span>
+              <span className=" sidebar_email_label" onClick={handleEmailMe}>tejasmusale99@gmail.com</span>
             </div>
           </div>
           <div className="main-location-container">
             <div className="display_Email">
-              <div className="sidebar_email">
-                <img src={location} alt="loacation" className="sidebar_icon" />
+              <div className="sidebar_location">
+                <i class="fa-solid fa-location-dot sidebar_locationicon"></i>
               </div>
               <div className="sidebar_box">
                 <div className="sidebar_mainlabel">Location</div>
-                <span className="sidebar_label">Maharashtra,india</span>
+                <span className="sidebar_location_label">Maharashtra,india</span>
               </div>
             </div>
           </div>
@@ -84,9 +78,9 @@ function Sidebar() {
       </div>
 
       <a href={resume} download="Resume.pdf">
-        <div className="sidebar_item sidebar_resume">
-          <img src={resumeicon} alt="resume" className="sidebar_icon" />
-          Resume
+        <div className="sidebar_item sidebar_resume sidebar_resume_icon">
+        <i class="fa-solid fa-file-arrow-down">  </i>
+       <span className="sidebar_resume_name">Resume</span> 
         </div>
       </a>
     </motion.div>

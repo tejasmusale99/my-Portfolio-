@@ -4,7 +4,7 @@ import React from 'react'
 
 function BlogCard({blog:{image,publishURL,category,date,title,text}}) {
   return (
-    <div className="blogCard col-md-6 col-lg-5 mx-4 my-3 p-lg-0 ">
+    <div className="col-md-6 col-lg-4 my-4">
       <div className='blogCard_item'>
         <a href={publishURL} target="_blank" className='link_linkedin' rel="noreferrer">
         <div className='blog_banner'>
@@ -13,8 +13,8 @@ function BlogCard({blog:{image,publishURL,category,date,title,text}}) {
     <div className="blogcard_wrapper">
       <div className='blog_meta'>
         <p className="blog-category">{category}</p>
-        <span className='dot'>.</span>
-        <time>{date}</time>
+        <span className='dot'></span>
+        <time className='datetime'>{date}</time>
       </div>
       <h3 className='blog-title'>
         {title}

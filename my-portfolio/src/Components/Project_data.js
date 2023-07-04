@@ -8,8 +8,7 @@ const data_projects = [
         image: Clock,
         deployed_url: 'https://digital-clock-tejas.netlify.app/',
         github_url: 'https://github.com/tejasmusale99/Digital-Clock',
-        // language:"HTML5,CSS3,JavaScript",
-        category: ['javascript ']
+        category: ['Javascript, ', "HTML5, ",'CSS3 ']
     },
 
     {
@@ -17,7 +16,6 @@ const data_projects = [
         image: Weather,
         deployed_url: 'https://dev-talks.herokuapp.com/',
         github_url: 'https://github.com/tejasmusale99/WeatherProject',
-        // language:"HTML5,CSS3,JavaScript",
         category: ['node.js','react.js']
     },
     {
@@ -25,8 +23,7 @@ const data_projects = [
         image: Clock,
         deployed_url: 'https://digital-clock-tejas.netlify.app/',
         github_url: 'https://github.com/tejasmusale99/Digital-Clock',
-        // language:"HTML5,CSS3,JavaScript",
-        category: ['javascript']
+        category: ['Javascript, ', "HTML5, ",'CSS3, ']
     },
 
     {
@@ -34,7 +31,6 @@ const data_projects = [
         image: Weather,
         deployed_url: 'https://dev-talks.herokuapp.com/',
         github_url: 'https://github.com/tejasmusale99/WeatherProject',
-        // language:"HTML5,CSS3,JavaScript",
         category: ['node.js', 'mongoDB']
     },
 

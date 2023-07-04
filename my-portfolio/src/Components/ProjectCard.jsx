@@ -11,9 +11,11 @@ function ProjectCard({project:{name,image,deployed_url,github_url,category}}) {
             <div className="projectCard__title">
             <h6 className='project_name'>{name}</h6>
             <p className='language_used'>{category}</p>
+            <div className='project_gitHub'>
                 <Link to={github_url} target="_blank">
                     <button className='projectCard_btn'>Open with github</button>
                 </Link>
+                </div>
             </div>
         </div>
     </div>

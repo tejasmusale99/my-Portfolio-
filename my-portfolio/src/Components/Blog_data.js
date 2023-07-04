@@ -1,38 +1,41 @@
-import Router from "../Blog Images/React-router.png"
-import fetchingApi from "../Blog Images/fetching-api.png"
+import cssVariable from "../Blog Images/css variable.png"
+import fetchApi from "../Blog Images/fetch api.png"
+import reactRouter from "../Blog Images/react router.png"
+import whatReact from "../Blog Images/what is react.png"
 
 const Blog_data = [
     {
-      image:Router,
+      image:reactRouter,
       publishURL:"https://www.linkedin.com/pulse/understanding-react-router-v6-some-new-changes-tejas-musale/",
       category:"React",
       date:"June 8, 2023",
       title:"Understanding React Router and React Router V6: Some of the new changes",
-      text:"Routing enables navigation from one view to another in a web application based on action or request. It is the ability to move from one page to another when a user clicks some element like a link, button, icon, image, and so on within the application."
+      text:"This blog is about  React Router updated to version 6 and with that, it came with some exciting changes so I'm going to describe some of them"
     },
     {
-      image:fetchingApi,
+      image:cssVariable,
+      publishURL:"https://www.linkedin.com/pulse/different-ways-fetch-data-react-js-tejas-musale/",
+      category:"HTML, CSS",
+      date:"June 26, 2023",
+      title:"CSS Variables with Global & Local Scope",
+      text:"In this blog will see usage of CSS variables and how you can use them in your project."
+    },
+    {
+      image:fetchApi,
       publishURL:"https://www.linkedin.com/pulse/different-ways-fetch-data-react-js-tejas-musale/",
       category:"React",
       date:"June 11, 2023",
-      title:"Understanding React Router and React Router V6: Some of the new changes",
-      text:"In this blog, we’ll see how to fetch and display data using APIs and use it in a React app. There are multiple ways to fetch data in a React application, and in this blog, we’ll walk you through those methods. With the help of APIs, we can fetch the data from servers and display it in our application."
+      title:"Different Ways to Fetch Data in React Js?",
+      text:"There are multiple ways to fetch data in a React application, and in this blog, we’ll walk you through those methods. With the help of APIs, we can fetch the data from servers and display it in our application."
     },
     {
-      image:fetchingApi,
+      image:whatReact,
       publishURL:"https://www.linkedin.com/pulse/different-ways-fetch-data-react-js-tejas-musale/",
       category:"React",
-      date:"June 11, 2023",
-      title:"Understanding React Router and React Router V6: Some of the new changes",
-      text:"In this blog, we’ll see how to fetch and display data using APIs and use it in a React app. There are multiple ways to fetch data in a React application, and in this blog, we’ll walk you through those methods. With the help of APIs, we can fetch the data from servers and display it in our application."
+      date:"April 12, 2023",
+      title:"What is React Js? The Difference Between a Framework and a Library",
+      text:"In this blog, we will understand react and also difference between Library and Framework."
     },
-    {
-      image:fetchingApi,
-      publishURL:"https://www.linkedin.com/pulse/different-ways-fetch-data-react-js-tejas-musale/",
-      category:"React",
-      date:"June 11, 2023",
-      title:"Understanding React Router and React Router V6: Some of the new changes",
-      text:"In this blog, we’ll see how to fetch and display data using APIs and use it in a React app. There are multiple ways to fetch data in a React application, and in this blog, we’ll walk you through those methods. With the help of APIs, we can fetch the data from servers and display it in our application."
-    },
+    
 ]
 export default Blog_data

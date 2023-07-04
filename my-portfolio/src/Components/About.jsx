@@ -1,18 +1,19 @@
 import React from "react";
-import api from "../Icons/graphic-design.png";
+import webDevelop from "../Icons/web-develop.png";
+import webDesign from "../Icons/web-design.png";
 import SkillCard from "./SkillCard";
 import { motion } from "framer-motion";
 
 function About() {
   const skills = [
     {
-      icon: api,
+      icon:webDesign,
       title: "Web Design",
       about:
         "The most modern website design with interactive UI/UX.",
     },
     {
-      icon: api,
+      icon:  webDevelop,
       title: "Web Development",
       about:
         "High-quality web apps at the professional level.",
@@ -42,7 +43,7 @@ function About() {
 
 
       <p className="about_para_first_line">
-        I'm frontend Engineer from India, I build apps with a focus on ReactJS.
+        I'm <span class="text-highlight">frontend Engineer</span> from India, I build apps with a focus on <span class="text-highlight">ReactJS.</span>.
       </p>
 
       <p className="about_para_lines">
@@ -53,15 +54,15 @@ function About() {
       </p>
 
       <p className="about_para_lines">
-        Front End : HTML-5, CSS-3, JavaScript-ES6, React.js, React query, Redux.
+        Front End : <span class="text-highlight">HTML-5, CSS-3, JavaScript-ES6, React.js, React query, Redux.</span>
       </p>
 
-      <p className="about_para_lines">CSS Frameworks : Bootstrap-5, Tailwind CSS.</p>
+      <p className="about_para_lines">CSS Frameworks :<span class="text-highlight">Bootstrap-5, Tailwind CSS.</span></p>
 
-      <p className="about_para_lines">Tools I know : Postman, Git, Github,Chrome Dev tools.</p>
+      <p className="about_para_lines">Tools I know : <span class="text-highlight">Postman, Git, Github,Chrome Dev tools.</span></p>
 
       <p className="about_para_lines">
-        Currently I am exploring : Node.js (Express.js), Firebase and MongoDB in
+        Currently I am exploring : <span class="text-highlight">Node.js (Express.js), Firebase and MongoDB</span> in
         my free time.
       </p>
       </motion.div>

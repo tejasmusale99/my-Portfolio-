@@ -7,6 +7,7 @@ import logoredux from "../Icons/redux.png";
 import git from "../Icons/git.png";
 import bootstrap from "../Icons/boot.png";
 import SkillIcon from "./SkillIcon";
+import book from "../Icons/book.png";
 import { motion } from "framer-motion";
 
 const skillIcons = [
@@ -56,7 +57,10 @@ function Resume() {
 
   return (
     <>
-      <h3 className="education_heading">Education</h3>
+      <div className="education_heading">
+        <img src={book} alt="book" className="education_icon"/>
+        <h3 >Education</h3>
+      </div>
       <motion.div
         class="timeline"
         variants={resume_variant}
@@ -66,7 +70,7 @@ function Resume() {
         <div class="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">BACHELOR OF ENGINEERING</h6>
-            <h6 className="resume-card_name">2017—2021</h6>
+            <h6 className="resume-card_name">2017-2021</h6>
             <p className="resume-card_details">
               D Y Patil Institute Of Engineering And Technology
               (Pune,Maharashtra)
@@ -76,20 +80,20 @@ function Resume() {
         <div class="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">SENIOR SECONDARY (12TH)</h6>
-            <h6 className="resume-card_name">2016—2017</h6>
+            <h6 className="resume-card_name">2016-2017</h6>
             <p className="resume-card_details">(Dhule,Maharashtra)</p>
           </div>
         </div>
         <div class="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">SECONDARY (10TH)</h6>
-            <h6 className="resume-card_name">2014—2015</h6>
+            <h6 className="resume-card_name">2014-2015</h6>
             <p className="resume-card_details">(Dhule,Maharashtra)</p>
           </div>
         </div>
       </motion.div>
 
-      <h3 className="skills-heading ">Skills</h3>
+      <h3 className="skills-heading ">My Skills</h3>
 
       <motion.div
         className="icon_container skills-list  content-card flex-row"
