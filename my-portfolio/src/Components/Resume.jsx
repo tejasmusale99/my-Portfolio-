@@ -66,6 +66,7 @@ function Resume() {
         variants={resume_variant}
         initial="hidden"
         animate="visible"
+
       >
         <div class="resume_container right">
           <div className="resume-card_body">

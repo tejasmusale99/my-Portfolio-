@@ -13,7 +13,7 @@ function Blogs() {
         delay: 0.1,
         duration: 0.6,
       },
-    },
+    }
   };
   return (
     <motion.div className="container blogs"
