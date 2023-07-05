@@ -43,7 +43,7 @@ function About() {
 
 
       <p className="about_para_first_line">
-        I'm <span class="text-highlight">Frontend Engineer</span> from India, I build apps with a focus on <span class="text-highlight">ReactJS.</span>.
+        I'm <span className="text-highlight">Frontend Engineer</span> from India, I build apps with a focus on <span className="text-highlight">ReactJS.</span>.
       </p>
 
       <p className="about_para_lines">
@@ -54,15 +54,15 @@ function About() {
       </p>
 
       <p className="about_para_lines">
-        Front End : <span class="text-highlight">HTML-5, CSS-3, JavaScript-ES6, React.js, React query, Redux.</span>
+        Front End : <span className="text-highlight">HTML-5, CSS-3, JavaScript-ES6, React.js, React query, Redux.</span>
       </p>
 
-      <p className="about_para_lines">CSS Frameworks :<span class="text-highlight">Bootstrap-5, Tailwind CSS.</span></p>
+      <p className="about_para_lines">CSS Frameworks :<span className="text-highlight"> Bootstrap-5, Tailwind CSS.</span></p>
 
-      <p className="about_para_lines">Tools I know : <span class="text-highlight">Postman, Git, Github,Chrome Dev tools.</span></p>
+      <p className="about_para_lines">Tools I know : <span className="text-highlight">Postman, Git, Github,Chrome Dev tools.</span></p>
 
       <p className="about_para_lines">
-        Currently I am exploring : <span class="text-highlight">Node.js (Express.js), Firebase and MongoDB</span> in
+        Currently I am exploring : <span className="text-highlight">Node.js (Express.js), Firebase and MongoDB</span> in
         my free time.
       </p>
       </motion.div>

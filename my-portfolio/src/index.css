@@ -22,7 +22,7 @@ a:hover {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(79, 67, 67);
+  background-color: rgb(46, 45, 45);
   border-radius: 10px;
   height: 40px;
 }
@@ -193,7 +193,7 @@ a:hover {
   position: absolute;
   width: 50%;
   height: 1px;
-  bottom: -6px;
+  bottom: -10px;
   left: 1%;
   border-bottom: 7px solid hsl(45, 100%, 72%);
   border-radius: 10px;
@@ -223,17 +223,17 @@ a:hover {
 .about_para_lines {
   padding-top: 7px;
   color: rgba(211, 211, 211, 0.763);
-  font-family: 'Pathway Extreme', sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 .text-highlight {
   font-size: 1.1rem;
   color: #fcd16b;
-  font-family: 'Pathway Extreme', sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 .about_para_first_line {
   padding-top: 20px;
   color: rgba(211, 211, 211, 0.763);
-  font-family: 'Pathway Extreme', sans-serif;
+  font-family: 'Overpass', sans-serif;
   
 }
 .skill-card {
@@ -456,12 +456,7 @@ a:hover {
 color: #fcd16b;
 }
 
-/* .project_inside_navBar {
-  color: rgba(211, 211, 211, 0.763);
-  font-weight: 700;
-  cursor: pointer;
-  padding-right: 10px;
-} */
+
 
 /* blog  */
 .blogs {

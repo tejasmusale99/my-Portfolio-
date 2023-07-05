@@ -62,13 +62,13 @@ function Resume() {
         <h3 >Education</h3>
       </div>
       <motion.div
-        class="timeline"
+        className="timeline"
         variants={resume_variant}
         initial="hidden"
         animate="visible"
 
       >
-        <div class="resume_container right">
+        <div className="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">BACHELOR OF ENGINEERING</h6>
             <h6 className="resume-card_name">2017-2021</h6>
@@ -78,14 +78,14 @@ function Resume() {
             </p>
           </div>
         </div>
-        <div class="resume_container right">
+        <div className="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">SENIOR SECONDARY (12TH)</h6>
             <h6 className="resume-card_name">2016-2017</h6>
             <p className="resume-card_details">(Dhule,Maharashtra)</p>
           </div>
         </div>
-        <div class="resume_container right">
+        <div className="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">SECONDARY (10TH)</h6>
             <h6 className="resume-card_name">2014-2015</h6>

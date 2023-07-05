@@ -22,8 +22,8 @@ function Blogs() {
     animate="visible"
     >
       <div className="row">
-        {Blog_data.map((blogs) => (
-          <BlogCard blog={blogs}/>
+        {Blog_data.map((blogs,index) => (
+          <BlogCard blog={blogs} key={index}/>
         ))}
         </div>
       </motion.div>

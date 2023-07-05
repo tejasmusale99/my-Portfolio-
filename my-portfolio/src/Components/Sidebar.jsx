@@ -50,13 +50,13 @@ function Sidebar() {
         </Link>
       </div>
 
-      <div class="horizontal-line"></div>
+      <div className="horizontal-line"></div>
       <div className="sidebar_contact">
         <div className="main-Email-container">
           <div className="display_Email">
             <div className=" sidebar_email" onClick={handleEmailMe}>
 
-              <i class="fa-regular fa-envelope sidebar_emailicon"></i>
+              <i className="fa-regular fa-envelope sidebar_emailicon"></i>
             </div>
             <div className="sidebar_box">
               <div className="sidebar_mainlabel">Email</div>
@@ -66,7 +66,7 @@ function Sidebar() {
           <div className="main-location-container">
             <div className="display_Email">
               <div className="sidebar_location">
-                <i class="fa-solid fa-location-dot sidebar_locationicon"></i>
+                <i className="fa-solid fa-location-dot sidebar_locationicon"></i>
               </div>
               <div className="sidebar_box">
                 <div className="sidebar_mainlabel">Location</div>
@@ -79,7 +79,7 @@ function Sidebar() {
 
       <a href={resume} download="Resume.pdf">
         <div className="sidebar_item sidebar_resume sidebar_resume_icon">
-        <i class="fa-solid fa-file-arrow-down">  </i>
+        <i className="fa-solid fa-file-arrow-down">  </i>
        <span className="sidebar_resume_name">Resume</span> 
         </div>
       </a>

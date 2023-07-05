@@ -1,12 +1,12 @@
 import React from "react";
 import Sidebar from "./Components/Sidebar";
 import Navbar from "./Components/Navbar";
-import { Routes, Route,Navigate, useLocation } from "react-router-dom";
+import { Routes, Route,Navigate } from "react-router-dom";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
 import Blogs from "./Components/Blogs";
-import {AnimatePresence} from "framer-motion"
+
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
           </div>
           <div className="col-lg-9 app_main-content">
             <Navbar />
-            <AnimatePresence>
             <Routes>
               <Route path="/" element={<About />}></Route>
               <Route path="/resume" element={<Resume />}></Route>
@@ -26,7 +25,6 @@ function App() {
               <Route path="/blogs" element={<Blogs />}></Route>
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
-            </AnimatePresence>
           </div>
         </div>
       </div>
