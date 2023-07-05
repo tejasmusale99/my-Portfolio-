@@ -47,10 +47,9 @@ function About() {
       </p>
 
       <p className="about_para_lines">
-        I am having an experience of building high-performing, responsive,
-        beautiful web applications to deliever a unique, intuitive user
-        experience. I enjoy being challenged and working on projects that
-        require me to step outside of my comfort zone.
+        I have experience building high-performing, responsive,
+        Attractive web applications to deliver a unique, intuitive user
+        experience. I enjoy being challenged and working on projects requiring me to step outside my comfort zone.
       </p>
 
       <p className="about_para_lines">

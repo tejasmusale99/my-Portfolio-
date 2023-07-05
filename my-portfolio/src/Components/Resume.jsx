@@ -82,14 +82,14 @@ function Resume() {
           <div className="resume-card_body">
             <h6 className="resume-card_title">SENIOR SECONDARY (12TH)</h6>
             <h6 className="resume-card_name">2016-2017</h6>
-            <p className="resume-card_details">(Dhule,Maharashtra)</p>
+            <p className="resume-card_details">(Dhule, Maharashtra)</p>
           </div>
         </div>
         <div className="resume_container right">
           <div className="resume-card_body">
             <h6 className="resume-card_title">SECONDARY (10TH)</h6>
             <h6 className="resume-card_name">2014-2015</h6>
-            <p className="resume-card_details">(Dhule,Maharashtra)</p>
+            <p className="resume-card_details">(Dhule, Maharashtra)</p>
           </div>
         </div>
       </motion.div>
