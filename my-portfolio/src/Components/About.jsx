@@ -43,7 +43,7 @@ function About() {
 
 
       <p className="about_para_first_line">
-        I'm <span class="text-highlight">frontend Engineer</span> from India, I build apps with a focus on <span class="text-highlight">ReactJS.</span>.
+        I'm <span class="text-highlight">Frontend Engineer</span> from India, I build apps with a focus on <span class="text-highlight">ReactJS.</span>.
       </p>
 
       <p className="about_para_lines">

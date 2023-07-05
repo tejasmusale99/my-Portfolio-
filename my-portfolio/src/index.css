@@ -57,10 +57,10 @@ a:hover {
 .sidebar_myName {
   margin: 20px 0px;
   font-size: 1.5rem;
-  color: rgba(211, 211, 211, 0.763);
+ color: #f1f1f1;
+ font-family: 'Geologica', sans-serif;
 }
 .sidebar_name {
-  font-family: "Times New Roman", Times, serif;
   margin: 20px 0px;
   font-size: 1rem;
 }
@@ -223,14 +223,18 @@ a:hover {
 .about_para_lines {
   padding-top: 7px;
   color: rgba(211, 211, 211, 0.763);
+  font-family: 'Pathway Extreme', sans-serif;
 }
 .text-highlight {
   font-size: 1.1rem;
   color: #fcd16b;
+  font-family: 'Pathway Extreme', sans-serif;
 }
 .about_para_first_line {
   padding-top: 20px;
   color: rgba(211, 211, 211, 0.763);
+  font-family: 'Pathway Extreme', sans-serif;
+  
 }
 .skill-card {
   background-color: hsl(240, 3%, 15%);
