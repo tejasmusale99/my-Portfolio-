@@ -36,10 +36,10 @@ function Projects() {
     >
       <div className="projects_navbar">
         <NavLink className="project_inside_navBar active"  onClick={() => setProjects(data_projects)}>All</NavLink>
-        <NavLink className="project_inside_navBar active"  onClick={() => handleClickFilter("react.js")}>React</NavLink>
+        <NavLink className="project_inside_navBar active"  onClick={() => handleClickFilter("ReactJs ","HTML5, ","CSS3, ")}>React</NavLink>
+        <NavLink className="project_inside_navBar active"  onClick={() => handleClickFilter("Javascript, ","HTML5, ","CSS3, ")}>Javascript</NavLink>
         <NavLink className="project_inside_navBar active"  onClick={() => handleClickFilter("mongoDB")}>MongoDB</NavLink>
         <NavLink className="project_inside_navBar active"  onClick={() => handleClickFilter("node.js")}>Node</NavLink>
-        <NavLink className="project_inside_navBar active"  onClick={() => handleClickFilter("Javascript, ","HTML5, ","CSS3, ")}>Javascript</NavLink>
       </div>
       <div className="row">
         {projects.map((project) => (
