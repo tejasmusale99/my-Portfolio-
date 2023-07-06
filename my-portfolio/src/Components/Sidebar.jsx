@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Avatar from "../Icons/avatar.jpg";
-import resume from "../Resume/tejas_resume.pdf"
+import resume from "../Resume/resume_tejas.pdf"
 import { motion } from "framer-motion";
 
 function Sidebar() {
